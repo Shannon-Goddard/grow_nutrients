@@ -21,7 +21,7 @@ In this module, we used HTML, JS, and CSS to create a drop menu for the user to 
 - Create a drop-menu and display more information from the user's selection   
 
 ## Summary
-**Check-out this interactive website [here](https://shannon-goddard.github.io/grow_nutes/)**  
+**Check-out this interactive website [here](https://shannon-goddard.github.io/grow_nutrients/)**  
 
 *Coming soon...*  
 **Check-out the app this project was used with [here]()**
