@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <style>input{display: block;margin-left: 50px}</style>
+        <title>Grow App</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="static/CSS/style.css"/>
+    </head>
+    <body>
+        <div id="wrapper">
+            <img src="static\images\logo.jpg" alt="loyal" class="center">
+            <div class="container-fluid">
+                <h1 style="color: darkslategrey">Select the nutrients you'll be using <br> <small></small></h1>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a id="0"><img src="static\images\Logo_Mammoth.png" width="120"><b>MAMMOTH® SILICA (SI)</b></a>                                  
+                        <a id="1"><img src="static\images\gh_logo.png" width="120"><b>BioThrive®</b></a>                                       
+                        <a id="2"><img src="static\images\tf_logo.png" width="120"><b>The Recipe for Success Starter Kit™</b></a>
+                        <a id="3"><img src="static\images\gh_logo.png" width="120"><b>FLORA SERIES®</b></a>                                     
+                        <a id="4"><img src="static\images\fox_logo.png" width="120"><b>Big Bloom®, Grow Big® and Tiger Bloom®</b></a>                            
+                        <a id="5"><img src="static\images\an_logo.png" width="120"><b>Bud Candy®</b></a> 
+                    </div>
+                </div>
+            </div>
+        <div class="post-container">
+            <div id="box" >
+                <div class="image"><img id="image" src="" style="width:45%;" alt=""></div>
+                <div class="nute"><img id="nute" src="" style="width:45%;" alt=""></div>
+                <br>
+                <div id="info" style="color: black;"></div>
+                <br>
+                <div id="more_info" style="color: black;">This information can be found at <a id="name" class ="name" href=""></a></div>
+            </div>
+        </div>
+        <div class="navbar" id="myNavbar">
+            <a class="nav-link" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a class="nav-link active" href="#"><i class="fa fa-leaf"></i> My Grow</a>
+            <a class="nav-link" href="#"><i class="fa fa-book"></i> My Diary</a>
+            <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i> Shop</a>
+            <a class="nav-link" href="#"><i class="fa fa-cogs"></i> Tools</a>
+            <a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a></li>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="static/js/data.js"></script>
+        <script src="static/js/app.js"></script>
+    </div>
+</body>
+</html>
