@@ -1,7 +1,4 @@
 # Cannabis Grow Nutrients Guide
-
-![header](pics/header.png)
-
 A comprehensive interactive web application for cannabis growers to explore and compare different nutrient brands and feeding systems. This tool provides detailed information about popular hydroponic and organic nutrient lines to help growers make informed decisions for their cultivation setup.
 
 ## 🌿 Live Demo
