@@ -154,4 +154,4 @@ This application is for educational and informational purposes only. Always foll
 
 ---
 
-*Built with 🌿 by Shannon Goddard | Part of the Loyal9 LLC Cannabis Technology Suite*
+*Built with 🌿 by Shannon Goddard | Loyal9 LLC*
